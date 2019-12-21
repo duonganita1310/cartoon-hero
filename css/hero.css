@@ -1,0 +1,70 @@
+html, body{
+	font-family: Arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+	background-color: #cc0000;
+	padding: 40px; /*1 value: all;
+	2 values: top&bottom, left& right;
+	4 values: top right bottom left*/
+	text-align: center;
+}
+
+h1{
+	font-size: 90px;
+	color: white;
+}
+
+header img{
+	border-radius: 150px; /* border roundness*/
+	width: 300px;
+	border: 10px solid #0000ff;
+}
+
+.content{
+	max-width: 900px;
+	margin: 0 auto; /* auto-balanced, left and right*/
+	padding: 20px;
+}
+
+img.big-image{
+	max-width: 100%; /* if website is resized, it will fit automatically 100% */
+}
+
+p.caption{
+	font-size: 16px;
+	color: lightgrey;
+	font-style: italic;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: red;
+	text-decoration: none;
+}
+
+footer{
+	padding: 40px 20px;
+	background-color: #bfbfbf
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block; /* all elements of the list is put into 1 line */
+	margin: 0 20px; 
+}
+
+/*<header>
+	<img src="https://cdn.collider.com/wp-content/uploads/2016/06/wreck-it-ralph-2.jpeg">
+	<h1>Wreck-It Ralph</h1>
+</header>*/
